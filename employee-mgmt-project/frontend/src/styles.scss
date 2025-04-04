@@ -187,3 +187,36 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   font-weight: 500;
   margin-bottom: 1rem;
 }
+
+.auth-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  background: #f4f6ff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #1a237e;
+}
+
+mat-form-field {
+  display: block;
+  width: 100%;
+  margin-bottom: 1.2rem;
+}
+
+button {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 500;
+}
